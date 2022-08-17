@@ -1,6 +1,6 @@
 body {
   height: 575px;
-  font-family: poppins;
+  font-family:sans-serif;
   font-weight: 200;
   background-color: #e5e5e5;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 h2 {
-  color: #172B4d;
+  color: #172b4d;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -57,3 +57,4 @@ h2 {
   font-weight: 500;
   font-style: normal;
 }
+
