@@ -1,61 +1,61 @@
 body {
-    height: 575px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 200;
-    background-color: #e5e5e5;
+  height: 575px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  background-color: #e5e5e5;
 }
 
 .logo-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: rgb(13, 13, 189);
-    padding-left: 24px;
-    padding-right: 24px;
-    background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(13, 13, 189);
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #fff;
 }
 
 .logo {
-    font-weight: 700;
-    size: 18px;
-    line-height: 20px;
+  font-weight: 700;
+  size: 18px;
+  line-height: 20px;
 }
 
 .introduction {
-    padding-top: 100px;
-    background: url(/images/header-shapes\ mobile.png) no-repeat;
-    background-color: #fff;
-    height: 600px;
-    padding-left: 24px;
-    padding-right: 24px;
-    border-radius: 0 0 0 100px;
+  padding-top: 100px;
+  background: url(/images/header-shapes\ mobile.png) no-repeat;
+  background-color: #fff;
+  height: 600px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 0 0 0 100px;
 }
 
 h2 {
-    color: #172b4d;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 #description {
-    color: #344563;
-    line-height: 16px;
-    font-weight: 400px;
+  color: #344563;
+  line-height: 16px;
+  font-weight: 400px;
 }
 
 .social-media {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 #connect {
-    color: #7f8cff;
-    line-height: 24px;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
+  color: #7f8cff;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
 }
-
 /* end  */
+
