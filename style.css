@@ -7,15 +7,18 @@ body {
   background-color: #e5e5e5;
 }
 
+.head {
+  padding: 10px 0;
+  background-color: #fff;
+}
+
 .logo-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #0921fa;
-  padding-top: 20px;
+  color: #6070ff;
   padding-left: 24px;
   padding-right: 24px;
-  background-color: #fff;
 }
 
 .logo {
@@ -31,7 +34,7 @@ a {
 
 .introduction {
   padding-top: 100px;
-  background: url(/images/header-shapes\ mobile.png) no-repeat;
+  background: url(images/header-shapes\ mobile.png) no-repeat;
   background-size: 100%;
   background-color: #fff;
   height: 600px;
