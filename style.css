@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #6070ff;
+  color: #0921fa;
+  padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
   background-color: #fff;
@@ -21,11 +22,11 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  color: #0921fa;
 }
 
 a {
   text-decoration: none;
-  color: #6070ff;
 }
 
 .introduction {
@@ -58,7 +59,6 @@ h1 {
   font-weight: 400;
   line-height: 24px;
   flex: none;
-  order: 1;
   width: 327px;
   height: 146px;
 }
@@ -70,7 +70,6 @@ h1 {
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
-  width: px;
   height: 24px;
 }
 
@@ -78,7 +77,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  color: #505f79;
 }
 
 ul {
@@ -86,12 +84,15 @@ ul {
   margin: 0;
   font: bolder;
   font-size: 25px;
-  color: #505f79;
-  word-spacing: 18px;
+  word-spacing: 10px;
 }
 
 li {
   display: inline;
+}
+
+ul li i {
+  color: #505f79;
 }
 
 /* end */
