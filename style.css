@@ -90,4 +90,8 @@ ul {
   word-spacing: 18px;
 }
 
+li {
+    display: inline;
+}
+
 /* end */
