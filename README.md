@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# PORTOFOLIO
 
-> My portofolio.
+> Portfolio: setup and mobile first.
 
 
 ## Built With
@@ -50,7 +50,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Irirwanirira/My-portofolio/issues).
 
 ## Show your support
 
