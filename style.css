@@ -21,10 +21,9 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  
 }
 
-a{
+a {
   text-decoration: none;
   color: #6070ff;
 }
@@ -41,7 +40,7 @@ a{
 }
 
 h1 {
-  font-family: 'poppins';
+  font-family: 'poppins', sans-serif;
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
@@ -73,7 +72,7 @@ h1 {
   font-style: normal;
   width: px;
   height: 24px;
-  }
+}
 
 .social-media {
   display: flex;
@@ -82,17 +81,13 @@ h1 {
   color: #505f79;
 }
 
-
-
-ul{
+ul {
   padding: 0;
   margin: 0;
-  position: absolute;
-  font:bolder;
+  font: bolder;
   font-size: 25px;
   color: #505f79;
   word-spacing: 18px;
-  
 }
 
 /* end */
