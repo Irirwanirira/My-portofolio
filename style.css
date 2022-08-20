@@ -98,12 +98,10 @@ ul li i {
   color: #505f79;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   row-gap: 104px;
   padding: 114px 24px;
-  
-
 }
 
 .cards {
@@ -116,14 +114,13 @@ ul li i {
   border: 0 solid #dfe1e6;
   border-radius: 10px;
   background-color: #fff;
-  
 }
 
 .pic1 {
   padding: 0;
   margin: 0;
   height: 220px;
-  width: 295px;;
+  width: 295px;
   top: 16px;
   border-radius: 8px;
 }
@@ -280,10 +277,6 @@ li {
   display: inline;
 }
 
-ul li i {
-  color: #505f79;
-} 
-
 .button-1 {
   font-family: 'pippins', sans-serif;
   font-style: medium;
@@ -311,12 +304,12 @@ ul li i {
 }
 
 .categories #arrow-icon {
-  float: right
+  float: right;
 }
 
 .java-css-html {
   display: flex;
-  padding: 20px ;
+  padding: 20px;
 }
 
 .language-1 {
@@ -358,10 +351,6 @@ ul li i {
   padding-bottom: 50px;
 }
 
-.about {
-  background-color: #fff;
-}
-
 .li-style {
   display: flex;
   justify-content: space-between;
@@ -369,4 +358,3 @@ ul li i {
 }
 
 /* end */
-
