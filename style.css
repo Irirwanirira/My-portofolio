@@ -154,7 +154,7 @@ ul li i {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-} 
+}
 
 .canopy {
   font-family: 'poppins', sans-serif;
@@ -191,10 +191,10 @@ ul li i {
 }
 
 .css-html-js {
-  display: inline-block; 
-  align-items: flex-start; 
-  justify-content: center; 
-  padding-right: 0px; 
+  display: inline-block;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 0px;
 }
 
 .all {
@@ -306,8 +306,6 @@ ul li i {
   padding-right: 30px;
   font-size: 18px;
 }
-
-
 
 .java-css-html {
   display: flex;
