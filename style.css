@@ -107,8 +107,8 @@ ul li i {
 .cards {
   display: flex;
   flex-direction: column;
-  align-items:center;
-  justify-content:space-between;
+  align-items: center;
+  justify-content: space-between;
   gap: 10px;
   padding: 16px 16px 24px 16px;
   border: 0 solid #dfe1e6;
@@ -129,7 +129,7 @@ ul li i {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items:baseline;
+  align-items: baseline;
   padding: 0;
   margin: 0;
 }
@@ -153,7 +153,7 @@ ul li i {
 }
 
 .canopy {
-  font-family:'poppins', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -264,17 +264,13 @@ ul li i {
   height: 24px;
 }
 
-ul {
+.ul-connect {
   padding: 0;
   margin: 0;
   font: bolder;
   font-size: 25px;
   word-spacing: 10px;
   margin-bottom: 20px;
-} 
-
-li {
-  display: inline;
 }
 
 .button-1 {
@@ -304,7 +300,7 @@ li {
 }
 
 .categories #arrow-icon {
-  float: right;
+  float : right;
 }
 
 .java-css-html {
