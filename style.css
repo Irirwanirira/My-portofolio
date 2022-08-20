@@ -296,16 +296,16 @@ ul li i {
 }
 
 .categories li i {
-  float : right;
+  float: right;
 }
 
 .categories #arrow-icon {
-  float : right;
+  float: right;
 }
 
 .java-css-html {
-  display : flex;
-  padding : 20px;
+  display: flex;
+  padding: 20px;
 }
 
 .language-1 {
