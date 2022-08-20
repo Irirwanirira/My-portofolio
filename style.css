@@ -19,6 +19,7 @@ body {
   color: #6070ff;
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 20px;
 }
 
 .logo {
@@ -37,7 +38,7 @@ a {
   background: url(images/header-shapes\ mobile.png) no-repeat;
   background-size: 100%;
   background-color: #fff;
-  height: 600px;
+  height: 700px;
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 0 0 0 100px;
@@ -45,6 +46,7 @@ a {
   flex-direction: column;
   align-items: baseline;
   justify-content: center;
+  margin-top: px ;
 }
 
 h1 {
@@ -194,7 +196,6 @@ ul li i {
   display: inline-block;
   align-items: flex-start;
   justify-content: center;
-  padding-right: 0px;
 }
 
 .all {
