@@ -41,6 +41,10 @@ a {
   padding-left: 24px;
   padding-right: 24px;
   border-radius: 0 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
 }
 
 h1 {
@@ -128,7 +132,7 @@ ul li i {
 .description {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: baseline;
   padding: 0;
   margin: 0;
@@ -148,9 +152,9 @@ ul li i {
 
 .type {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
-}
+} 
 
 .canopy {
   font-family: 'poppins', sans-serif;
@@ -187,9 +191,10 @@ ul li i {
 }
 
 .css-html-js {
-  display: inline-block;
-  align-items: flex-start;
-  justify-content: center;
+  display: inline-block; 
+  align-items: flex-start; 
+  justify-content: center; 
+  padding-right: 0px; 
 }
 
 .all {
@@ -287,6 +292,7 @@ ul li i {
   cursor: pointer;
   width: 110px;
   margin-bottom: -20px;
+  margin-top: 30px;
 }
 
 .category {
@@ -297,11 +303,11 @@ ul li i {
 
 .categories li i {
   float: right;
+  padding-right: 30px;
+  font-size: 18px;
 }
 
-.categories #arrow-icon {
-  float: right;
-}
+
 
 .java-css-html {
   display: flex;
