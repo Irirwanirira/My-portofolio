@@ -46,6 +46,12 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@Iri_joseph](https://twitter.com/Irirwanirira)
 - LinkedIn: [Joseph IRIRWANIRIRA](https://linkedin.com/in/joseph-irirwanirira-74666623a/)
 
+## Contributor
+
+- GitHub: [@abe1able](https://github.com/abe1able)
+- Linkedin: [@abelseifu](https://www.linkedin.com/in/abel-seifu-184543233/)
+- Twitter: [@AbelSeifu15](https://twitter.com/AbelSeifu15)
+
 
 
 Contributions, issues, and feature requests are welcome!
