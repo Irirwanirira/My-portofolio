@@ -58,7 +58,7 @@ h1 {
   height: 150px;
   display: flex;
   align-items: center;
-} 
+}
 
 #description {
   font-family: 'pippins', sans-serif;
@@ -200,7 +200,6 @@ ul li i {
 .css-html-js ul li {
   float: left;
   list-style: none;
-
 }
 
 .css-html-js ul li .all {
@@ -218,7 +217,7 @@ ul li i {
 }
 
 .all {
-  /* font-family: 'poppins', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-style: medium;
   font-size: 12px;
   line-height: 16px;
@@ -230,11 +229,11 @@ ul li i {
   border-radius: 8px;
   margin: 10px;
   border: none;
-  height: 25px; */
+  height: 25px;
 }
 
 .button {
-  /* font-family: 'pippins', sans-serif;
+  font-family: 'pippins', sans-serif;
   font-style: medium;
   line-height: 24px;
   color: #396df2;
@@ -246,7 +245,7 @@ ul li i {
   display: inline-block;
   font-size: 17px;
   margin: 4px 2px;
-  cursor: pointer; */
+  cursor: pointer;
 }
 
 .about {
