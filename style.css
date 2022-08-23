@@ -353,23 +353,11 @@ ul li i {
   height: 30cm;
 }
 
-.image-png {
-  padding-bottom: 5px;
-}
-
-.image-pn {
-  margin-top: 0px; 
-  margin-bottom: 40px;
-}
-
 .li-style {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   height: 60px;
-  /* margin-bottom: 40px; */
-
-
 }
 
 .footer {
@@ -377,7 +365,6 @@ ul li i {
   height: 110vh;
   border-radius: 100px 0 0 0;
   margin-top: 6rem;
-  
 }
 
 .contact {
@@ -418,7 +405,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  
 }
 
 input {
@@ -458,7 +444,7 @@ textarea {
 }
 
 .get-in-touch-btn:hover {
-  background-color:yellow;
+  background-color: yellow;
   color: maroon;
   transition: .5s;
 }
