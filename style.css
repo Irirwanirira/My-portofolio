@@ -397,7 +397,7 @@ ul li i {
   font-family: 'poppins', sans-serif;
   font-style: 'regular';
   align-items: center;
-} 
+}
 
 form {
   margin-top: 20px;
@@ -411,7 +411,7 @@ input {
   padding: 15px 10px;
   border: 1px hidden;
   border-radius: 5px;
-} 
+}
 
 ::placeholder {
   padding: 10px;
@@ -420,7 +420,6 @@ input {
   line-height: 24px;
   vertical-align: top;
   color: #b3bac5;
-
 } 
 
 textarea {
@@ -446,7 +445,7 @@ textarea {
 .get-in-touch-btn:hover {
   background-color: yellow;
   color: maroon;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 /* End */
