@@ -191,26 +191,29 @@ ul li i {
   fill: solid;
 }
 
-.css-html-js {
-  display: inline-block;
-  align-items: flex-start;
-  justify-content: center;
+.css-html-js ul {
+  width: auto;
+  float: left;
+  margin-left: -10px;
 }
 
-.all {
-  font-family: 'poppins', sans-serif;
-  font-style: medium;
-  font-size: 12px;
-  line-height: 16px;
-  align-items: left;
-  vertical-align: top;
+.css-html-js ul li {
+  float: left;
+  list-style: none;
+  margin: 5px 5px 15px 5px;
+}
+
+.css-html-js ul li .all {
+  font-family: 'pippins', sans-serif;
+  line-height: 24px;
+  color: #396df2;
+  font-size: 17px;
+  margin: 4px 2px;
   letter-spacing: 3%;
-  fill: solid;
-  color: #6070ff;
-  border-radius: 8px;
-  margin: 10px;
-  border: none;
-  height: 25px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px hidden;
+  border-radius: 5px;
 }
 
 .button {
