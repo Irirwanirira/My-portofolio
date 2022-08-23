@@ -200,6 +200,7 @@ ul li i {
 .css-html-js ul li {
   float: left;
   list-style: none;
+  margin: 5px 5px 15px 5px;
 }
 
 .css-html-js ul li .all {
@@ -210,27 +211,10 @@ ul li i {
   margin: 4px 2px;
   letter-spacing: 3%;
   cursor: pointer;
-  margin: 10px;
   padding: 5px 10px;
   border: 1px hidden;
   border-radius: 5px;
-}
-
-.all {
-  font-family: 'poppins', sans-serif;
-  font-style: medium;
-  font-size: 12px;
-  line-height: 16px;
-  align-items: left;
-  vertical-align: top;
-  letter-spacing: 3%;
-  fill: solid;
-  color: #6070ff;
-  border-radius: 8px;
-  margin: 10px;
-  border: none;
-  height: 25px;
-}
+} 
 
 .button {
   font-family: 'pippins', sans-serif;
