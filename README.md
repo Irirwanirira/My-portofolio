@@ -16,28 +16,6 @@
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
@@ -46,12 +24,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@Iri_joseph](https://twitter.com/Irirwanirira)
 - LinkedIn: [Joseph IRIRWANIRIRA](https://linkedin.com/in/joseph-irirwanirira-74666623a/)
 
-## Contributor
+## Aurhor 2
 
 - GitHub: [@abe1able](https://github.com/abe1able)
 - Linkedin: [@abelseifu](https://www.linkedin.com/in/abel-seifu-184543233/)
 - Twitter: [@AbelSeifu15](https://twitter.com/AbelSeifu15)
-
 
 
 Contributions, issues, and feature requests are welcome!
