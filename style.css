@@ -360,4 +360,93 @@ ul li i {
   align-items: center;
 }
 
-/* end */
+.footer {
+  background-color: #6070ff;
+  height: 110vh;
+  border-radius: 100px 0 0 0;
+}
+
+.contact {
+  padding-top: 100px;
+  background: url(./images/contact-background.png) no-repeat;
+  background-size: 55%;
+  background-position: 26vmax;
+  height: 90%;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h1 {
+  color: #fff;
+  padding-left: 30px;
+  font-family: 'poppins', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0;
+}
+
+.contact p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'poppins', sans-serif;
+  font-style: 'regular';
+  align-items: center;
+} 
+
+form {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  
+}
+
+input {
+  padding: 15px 10px;
+  border: 1px hidden;
+  border-radius: 5px;
+} 
+
+::placeholder {
+  padding: 10px;
+  font-family: 'poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  vertical-align: top;
+  color: #b3bac5;
+
+} 
+
+textarea {
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px hidden;
+}
+
+.get-in-touch-btn {
+  font-family: 'poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 20px 5px;
+  background-color: #fff;
+  width: 150px;
+  padding: 13px 20px;
+  border: 1px hidden;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.get-in-touch-btn:hover {
+  background-color:yellow;
+  color: maroon;
+  transition: .5s;
+}
+
+/* End */
