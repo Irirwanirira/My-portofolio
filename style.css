@@ -366,7 +366,7 @@ ul li i {
 
 .footer {
   background-color: #6070ff;
-  height: 180vh;
+  height: 130vh;
   border-radius: 100px 0 0 0;
   margin-top: 6rem;
 }
@@ -374,9 +374,9 @@ ul li i {
 .contact {
   padding-top: 100px;
   background: url(./images/contact-background.png) no-repeat;
-  background-size: 45%;
-  background-position: 42vmax;
-  height: 100%;
+  background-size: 58%;
+  background-position: 22vmax;
+  height: 90%;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
