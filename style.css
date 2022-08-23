@@ -429,12 +429,6 @@ textarea {
   border: 1px hidden;
 }
 
-.get-in-touch-btn:hover {
-  background-color: yellow;
-  color: maroon;
-  transition: 0.5s;
-}
-
 .get-in-touch-btn {
   font-family: 'poppins', sans-serif;
   font-size: 17px;
@@ -446,6 +440,12 @@ textarea {
   border: 1px hidden;
   border-radius: 8px;
   text-decoration: none;
+}
+
+.get-in-touch-btn:hover {
+  background-color: yellow;
+  color: maroon;
+  transition: 0.5s;
 }
 
 /* End */
