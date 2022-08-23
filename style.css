@@ -22,6 +22,10 @@ body {
   padding-top: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo-menu nav a {
   display: none;
 }
@@ -31,10 +35,6 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #0921fa;
-}
-
-a {
-  text-decoration: none;
 }
 
 .introduction {
@@ -366,7 +366,7 @@ ul li i {
 
 .footer {
   background-color: #6070ff;
-  height: 110vh;
+  height: 180vh;
   border-radius: 100px 0 0 0;
   margin-top: 6rem;
 }
@@ -374,9 +374,9 @@ ul li i {
 .contact {
   padding-top: 100px;
   background: url(./images/contact-background.png) no-repeat;
-  background-size: 55%;
-  background-position: 22vmax;
-  height: 90%;
+  background-size: 45%;
+  background-position: 42vmax;
+  height: 100%;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
@@ -452,22 +452,22 @@ textarea {
   transition: 0.5s;
 }
 
-.get-in-touch-btn:enabled{
+.get-in-touch-btn:enabled {
   border: 1px solid #7f8cff;
   background-color: #fff;
   color: #6070ff;
 }
 
-.get-in-touch-btn:visited{
+.get-in-touch-btn:visited {
   background-color: #2230d2;
 }
 
-.get-in-touch-btn:active{
+.get-in-touch-btn:active {
   background-color: #2230d2;
   color: #fff;
 }
 
-.get-in-touch-btn:disabled{
+.get-in-touch-btn:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
 }
