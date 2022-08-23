@@ -381,15 +381,6 @@ ul li i {
   justify-content: center;
 }
 
-.contact h1 {
-  color: #fff;
-  padding-left: 30px;
-  font-family: 'poppins', sans-serif;
-  font-size: 40px;
-  line-height: 52px;
-  margin: 0;
-}
-
 .contact p {
   color: #fff;
   font-size: 20px;
@@ -397,6 +388,15 @@ ul li i {
   font-family: 'poppins', sans-serif;
   font-style: 'regular';
   align-items: center;
+}
+
+.contact h1 {
+  color: #fff;
+  padding-left: 30px;
+  font-family: 'poppins', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0;
 }
 
 form {
@@ -429,6 +429,12 @@ textarea {
   border: 1px hidden;
 }
 
+.get-in-touch-btn:hover {
+  background-color: yellow;
+  color: maroon;
+  transition: 0.5s;
+}
+
 .get-in-touch-btn {
   font-family: 'poppins', sans-serif;
   font-size: 17px;
@@ -440,12 +446,6 @@ textarea {
   border: 1px hidden;
   border-radius: 8px;
   text-decoration: none;
-}
-
-.get-in-touch-btn:hover {
-  background-color: yellow;
-  color: maroon;
-  transition: 0.5s;
 }
 
 /* End */
