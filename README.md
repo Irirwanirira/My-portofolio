@@ -15,8 +15,27 @@
 
 [Live Demo Link](https://livedemo.com)
 
+## Getting started
+
+**To use this repositpry you will need to Clone this repository to your machine. A .gitignore file is already created to ignore any file that is irrelevant, especially your node.js file. A linter is already set up to help you check for errors in your codes, images used are already there**
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+### Setup
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 ## Authors
+
+
 
 👤 **Author1**
 
@@ -24,7 +43,7 @@
 - Twitter: [@Iri_joseph](https://twitter.com/Irirwanirira)
 - LinkedIn: [Joseph IRIRWANIRIRA](https://linkedin.com/in/joseph-irirwanirira-74666623a/)
 
-## Aurhor 2
+## Contributor
 
 - GitHub: [@abe1able](https://github.com/abe1able)
 - Linkedin: [@abelseifu](https://www.linkedin.com/in/abel-seifu-184543233/)
