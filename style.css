@@ -22,15 +22,19 @@ body {
   padding-top: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.logo-menu nav a {
+  display: none;
+}
+
 .logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #0921fa;
-}
-
-a {
-  text-decoration: none;
 }
 
 .introduction {
@@ -302,12 +306,14 @@ ul li i {
   background-color: #fff;
   padding: 24px;
   margin: -50px 0;
+  height: 40cm;
 }
 
 .categories li i {
   float: right;
   padding-right: 30px;
   font-size: 18px;
+  padding-bottom: 100px;
 }
 
 .java-css-html {
@@ -347,17 +353,123 @@ ul li i {
 }
 
 .About-my-self {
-  margin-bottom: 50px;
-}
-
-.image-png {
-  padding-bottom: 50px;
+  margin-bottom: 20px;
+  height: 30cm;
 }
 
 .li-style {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
+  height: 60px;
+}
+
+.footer {
+  background-color: #6070ff;
+  height: 130vh;
+  border-radius: 100px 0 0 0;
+  margin-top: 6rem;
+}
+
+.contact {
+  padding-top: 100px;
+  background: url(./images/contact-background.png) no-repeat;
+  background-size: 58%;
+  background-position: 22vmax;
+  height: 90%;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: 'poppins', sans-serif;
+  font-style: 'regular';
   align-items: center;
 }
 
-/* end */
+.contact h1 {
+  color: #fff;
+  padding-left: 30px;
+  font-family: 'poppins', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0;
+}
+
+form {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 15px 10px;
+  border: 1px hidden;
+  border-radius: 5px;
+}
+
+::placeholder {
+  padding: 10px;
+  font-family: 'poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  vertical-align: top;
+  color: #b3bac5;
+}
+
+textarea {
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px hidden;
+}
+
+.get-in-touch-btn {
+  font-family: 'poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  margin: 20px 5px 300px 5px;
+  background-color: #fff;
+  width: 150px;
+  padding: 13px 20px;
+  border: 1px hidden;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.get-in-touch-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.get-in-touch-btn:enabled {
+  border: 1px solid #7f8cff;
+  background-color: #fff;
+  color: #6070ff;
+}
+
+.get-in-touch-btn:visited {
+  background-color: #2230d2;
+}
+
+.get-in-touch-btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.get-in-touch-btn:disabled {
+  background-color: #e5e5e5;
+  color: #5e6c84;
+}
+
+/* End */
