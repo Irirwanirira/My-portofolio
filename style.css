@@ -564,8 +564,8 @@ textarea {
   }
 
   .descript .type {
-   display: flex;
-   gap: 20px;
+    display: flex;
+    gap: 20px;
   }
 
   .cards-1 .pic2 {
@@ -584,7 +584,6 @@ textarea {
   }
 
   .About-my-self .about {
-    width: 100%;
     height: auto;
     width: 25rem;
     border-radius: none;
@@ -681,7 +680,6 @@ textarea {
     background-color: #e5e5e5;
     color: #5e6c84;
   }
-
 }
 
 /* End */
