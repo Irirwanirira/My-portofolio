@@ -113,6 +113,10 @@ ul li i {
   padding: 114px 24px;
 }
 
+.computer {
+  display: none;
+}
+
 .cards {
   display: flex;
   flex-direction: column;
@@ -470,6 +474,225 @@ textarea {
 .get-in-touch-btn:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+  }
+
+  .logo-menu nav i {
+    display: none;
+  }
+
+  .logo-menu nav a {
+    display: inline;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .logo-menu {
+    padding: 25px 10%;
+    display: flex;
+  }
+
+  .logo-menu nav {
+    align-items: center;
+    word-spacing: 20px;
+  }
+
+  .introduction {
+    padding: 5% 10% ;
+    background: url(./images/Header-img-computer-version.png) no-repeat;
+    background-size: 90%;
+    background-position: 5vmax;
+    background-color: #fff;
+
+  }
+
+  .work {
+    display: none;
+  }
+
+  .computer {
+    display: grid;
+
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0 10%;
+  }
+
+  .cards .descript {
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    justify-content:left;
+    align-items: baseline;
+  }
+
+  .cards .pic1 {
+    height: auto;
+    width: 60%
+  }
+
+  .cards-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 16px 16px 24px 16px;
+    border: 0 solid #dfe1e6;
+    border-radius: 10px;
+    background-color: #fff
+  }
+
+  .cards-1 .descript {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: baseline;
+    width: 40%;
+    padding: 10px 0 5px 0;
+    margin: 20px;
+  }
+
+  .descript .type  {
+   display: flex;
+   gap: 20px;
+  }
+
+  .cards-1 .pic2 {
+    height: auto;
+    width: 60%;
+  }
+
+  .About-my-self {
+    background-color: #fff;
+    padding-left:  10%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 100px 0 0;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .About-my-self .about {
+    width: 100%;
+    height: auto;
+    width: 25rem;
+    border-radius: none;
+  }
+
+  .category {
+    height: 40rem;
+    margin: 10px;
+    padding-right: 10%;
+    background-color: #fff;
+    padding: 24px;
+    margin: -50px 0;
+  }
+  
+  .button-360 {
+    font-family: 'pippins', sans-serif;
+    font-style: medium;
+    line-height: 24px;
+    color: #fff;
+    background-color:#6070ff;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .language-1 {
+    display: flex;
+    margin-left: -20px;
+    gap: 12px;
+    width: 33rem;
+  }
+
+  .lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 6rem;
+    width: auto;
+  }
+
+  .lang p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    margin-top: -20px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .foot{
+    display: grid;
+    background-color: #6070ff;
+    margin-top: -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: baseline;
+    background: url(./images/Header-img-computer-version.png) no-repeat;
+    background-size: 90%;
+    background-position: 3vmax;
+    border-radius: 100px 0 0 0;
+  }
+
+  form {
+    width: 24rem;
+  }
+
+  .get-in-touch-btn {
+    align-self: center;
+  }
+
+  .get-in-touch-btn:hover {
+    background-color: #7f8cff;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .get-in-touch-btn:visited {
+    background-color: #2230d2;
+    transition: 0.5s;
+  }
+  
+  .get-in-touch-btn:active {
+    background-color: #2230d2;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .get-in-touch-btn:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+  }
+
 }
 
 /* End */
