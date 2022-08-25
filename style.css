@@ -376,7 +376,6 @@ ul li i {
 }
 
 .contact {
-  padding-top: 100px;
   background: url(./images/contact-background.png) no-repeat;
   background-size: 58%;
   background-position: 22vmax;
@@ -765,12 +764,18 @@ textarea {
   }
 
   .contact {
+    margin-top: 100px;
     display: flex;
     justify-content: baseline;
     background: url(./images/Header-img-computer-version.png) no-repeat;
     background-size: 90%;
     background-position: 3vmax;
     border-radius: 100px 0 0 0;
+  }
+
+  .contact p {
+    text-align: center;
+    width: 500px;
   }
 
   form {
