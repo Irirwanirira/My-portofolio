@@ -588,9 +588,9 @@ textarea {
     width: 25rem;
     border-radius: none;
   }
-  
+
   .button-360 {
-    font-family: 'pippins',sans-serif;
+    font-family: 'pippins', sans-serif;
     font-style: medium;
     line-height: 24px;
     color: #fff;
@@ -664,7 +664,7 @@ textarea {
     color: #fff;
     transition: 0.5s;
   }
-  
+
   .get-in-touch-btn:visited {
     background-color: #2230d2;
     transition: 0.5s;
@@ -675,7 +675,7 @@ textarea {
     color: #fff;
     transition: 0.5s;
   }
-  
+
   .get-in-touch-btn:disabled {
     background-color: #e5e5e5;
     color: #5e6c84;
