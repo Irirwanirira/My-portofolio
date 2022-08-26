@@ -113,6 +113,10 @@ ul li i {
   padding: 114px 24px;
 }
 
+.computer {
+  display: none;
+}
+
 .cards {
   display: flex;
   flex-direction: column;
@@ -372,7 +376,6 @@ ul li i {
 }
 
 .contact {
-  padding-top: 100px;
   background: url(./images/contact-background.png) no-repeat;
   background-size: 58%;
   background-position: 22vmax;
@@ -470,6 +473,340 @@ textarea {
 .get-in-touch-btn:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+  }
+
+  .logo-menu nav i {
+    display: none;
+  }
+
+  .logo-menu nav a {
+    display: inline;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .logo-menu {
+    padding: 25px 10%;
+    display: flex;
+  }
+
+  .logo-menu nav {
+    align-items: center;
+    word-spacing: 20px;
+  }
+
+  .introduction {
+    padding-left: 260px;
+    padding-bottom: 100px;
+    background: url(./images/Header-img-computer-version.png) no-repeat;
+    background-size: 90%;
+    background-position: 5vmax;
+    background-color: #fff;
+  }
+
+  .introduction h1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #description {
+    width: 100%;
+    height: auto;
+  }
+
+  .work {
+    display: none;
+  }
+
+  .computer {
+    display: grid;
+  }
+
+  .descript .tonic {
+    padding: 20px 0;
+    color: #091e42;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0 10%;
+  }
+
+  .cards .descript {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: left;
+    align-items: baseline;
+  }
+
+  .cards .pic1 {
+    height: auto;
+    width: 60%;
+  }
+
+  .cards-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 16px 16px 24px 16px;
+    border: 0 solid #dfe1e6;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  .cards-1 .descript {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: baseline;
+    width: 40%;
+    padding: 10px 0 5px 0;
+    margin: 20px;
+  }
+
+  .descript .type {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 32px;
+  }
+
+  .descript .explanations {
+    margin: 0;
+    padding-bottom: 28px;
+    color: #344563;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .descript .css-html-js {
+    margin: 0;
+    padding-bottom: 12px;
+  }
+
+  .descript .css-html-js li {
+    border-radius: 8px;
+    background-color: #ebebff;
+  }
+
+  .descript .css-html-js .all {
+    background-color: #ebebff;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6070ff;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+
+  .descript .button:hover {
+    background-color: #7f8cff;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .descript .button:visited {
+    background-color: #2230d2;
+    transition: 0.5s;
+  }
+
+  .descript .button:active {
+    background-color: #2230d2;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .descript .button:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+  }
+
+  .cards-1 .pic2 {
+    height: auto;
+    width: 60%;
+  }
+
+  .all-about {
+    background-color: #fff;
+    display: flex;
+    align-self: baseline;
+    justify-content: center;
+    border-radius: 0 100px 0 0;
+  }
+
+  .About-my-self .about {
+    height: auto;
+    width: 40%;
+    margin: 0 0 2rem 0;
+    padding: 114px 0  0 100px;
+  }
+
+  .about #self-description {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+  }
+
+  .about .button-1:hover {
+    background-color: #7f8cff;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .about .button-1:visited {
+    background-color: #2230d2;
+    transition: 0.5s;
+  }
+
+  .about .button-1:active {
+    background-color: #2230d2;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .about .button-1:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+  }
+
+  .category {
+    background-color: #fff;
+    padding: 24px;
+    margin: 80px;
+    width: 40rem;
+  }
+
+  .categories {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .li-style p {
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .java-css-html {
+    display: none;
+  }
+
+  .j-c-h {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+
+  .language-1 {
+    display: none;
+  }
+
+  .language-2 {
+    background-color: #fff;
+    display: flex;
+    width: 33rem;
+  }
+
+  .lang {
+    display: none;
+  }
+
+  .lango {
+    background-color: #f7f7f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 122px;
+    height: 120px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .lango p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    margin-top: -12px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .foot {
+    display: grid;
+    background-color: #6070ff;
+    margin-top: -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contact {
+    margin-top: 100px;
+    display: flex;
+    justify-content: baseline;
+    background: url(./images/Header-img-computer-version.png) no-repeat;
+    background-size: 90%;
+    background-position: 3vmax;
+    border-radius: 100px 0 0 0;
+  }
+
+  .contact p {
+    text-align: center;
+    width: 500px;
+  }
+
+  form {
+    width: 24rem;
+  }
+
+  .get-in-touch-btn {
+    align-self: center;
+  }
+
+  .get-in-touch-btn:hover {
+    background-color: #7f8cff;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .get-in-touch-btn:visited {
+    background-color: #2230d2;
+    transition: 0.5s;
+  }
+
+  .get-in-touch-btn:active {
+    background-color: #2230d2;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .get-in-touch-btn:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+  }
 }
 
 /* End */
