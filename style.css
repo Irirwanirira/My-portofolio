@@ -37,6 +37,11 @@ a {
   color: #0921fa;
 }
 
+.logo:hover {
+  transform: rotate(20deg);
+  transition: 0.5s all;
+}
+
 .introduction {
   padding-top: 100px;
   background: url(images/header-shapes\ mobile.png) no-repeat;
