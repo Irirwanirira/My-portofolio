@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 575px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 200;
   background-color: #e5e5e5;
 }
@@ -35,6 +35,7 @@ a {
   font-size: 18px;
   line-height: 20px;
   color: #0921fa;
+  opacity: 60%;
 }
 
 .logo:hover {
@@ -58,7 +59,7 @@ a {
 }
 
 h1 {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: #172b4d;
   font-weight: 700;
   font-size: 40px;
@@ -70,7 +71,7 @@ h1 {
 }
 
 #description {
-  font-family: 'pippins', sans-serif;
+  font-family: "pippins", sans-serif;
   color: #344563;
   font-size: 18px;
   font-weight: 400;
@@ -81,7 +82,7 @@ h1 {
 }
 
 #connect {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: #7f8cff;
   line-height: 24px;
   font-size: 18px;
@@ -153,7 +154,7 @@ ul li i {
 }
 
 .tonic {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: bold;
   font-size: 32px;
   line-height: 44px;
@@ -171,7 +172,7 @@ ul li i {
 }
 
 .canopy {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -182,8 +183,8 @@ ul li i {
 }
 
 .opt-period {
-  font-family: 'poppins', sans-serif;
-  font-style: 'semiBold';
+  font-family: "poppins", sans-serif;
+  font-style: "semiBold";
   font-size: 13px;
   line-height: 16px;
   line-height: 82%;
@@ -191,17 +192,19 @@ ul li i {
   padding: 0 10px;
   color: #7a869a;
   margin: 0;
+  font-weight: 500;
 }
 
 .explanations {
-  font-family: 'poppins', sans-serif;
-  font-style: 'Regular';
+  font-family: "poppins", sans-serif;
+  font-style: "Regular";
   font-size: 15px;
   line-height: 24px;
   align-items: left;
   vertical-align: top;
   color: #344563;
   fill: solid;
+  font-weight: 500;
 }
 
 .css-html-js ul {
@@ -217,7 +220,7 @@ ul li i {
 }
 
 .css-html-js ul li .all {
-  font-family: 'pippins', sans-serif;
+  font-family: "pippins", sans-serif;
   line-height: 24px;
   color: #396df2;
   font-size: 17px;
@@ -230,7 +233,7 @@ ul li i {
 }
 
 .button {
-  font-family: 'pippins', sans-serif;
+  font-family: "pippins", sans-serif;
   font-style: medium;
   line-height: 24px;
   color: #396df2;
@@ -268,7 +271,7 @@ ul li i {
 }
 
 #self-desription {
-  font-family: 'pippins', sans-serif;
+  font-family: "pippins", sans-serif;
   color: #344563;
   font-size: 18px;
   font-weight: 400;
@@ -276,7 +279,7 @@ ul li i {
 }
 
 .connect {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: #7f8cff;
   line-height: 24px;
   font-size: 18px;
@@ -295,7 +298,7 @@ ul li i {
 }
 
 .button-1 {
-  font-family: 'pippins', sans-serif;
+  font-family: "pippins", sans-serif;
   font-style: medium;
   line-height: 24px;
   color: #396df2;
@@ -353,7 +356,7 @@ ul li i {
 }
 
 .lang p {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: medium;
   font-size: 15px;
   line-height: 20px;
@@ -397,15 +400,15 @@ ul li i {
   color: #fff;
   font-size: 20px;
   line-height: 28px;
-  font-family: 'poppins', sans-serif;
-  font-style: 'regular';
+  font-family: "poppins", sans-serif;
+  font-style: "regular";
   align-items: center;
 }
 
 .contact h1 {
   color: #fff;
   padding-left: 30px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 40px;
   line-height: 52px;
   margin: 0;
@@ -427,7 +430,7 @@ input {
 
 ::placeholder {
   padding: 10px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 17px;
   line-height: 24px;
   vertical-align: top;
@@ -442,7 +445,7 @@ textarea {
 }
 
 .get-in-touch-btn {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 17px;
   line-height: 24px;
   margin: 20px 5px 300px 5px;
@@ -480,7 +483,7 @@ textarea {
   color: #5e6c84;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1250px) {
   body {
     display: flex;
     flex-direction: column;
@@ -494,7 +497,7 @@ textarea {
   .logo-menu nav a {
     display: inline;
     color: #344563;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 20px;
   }
@@ -657,7 +660,7 @@ textarea {
     height: auto;
     width: 40%;
     margin: 0 0 2rem 0;
-    padding: 114px 0  0 100px;
+    padding: 114px 0 0 100px;
   }
 
   .about #self-description {
