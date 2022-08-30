@@ -483,7 +483,7 @@ textarea {
   color: #5e6c84;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1250px) {
   body {
     display: flex;
     flex-direction: column;
