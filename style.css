@@ -170,6 +170,10 @@ ul li i {
   justify-content: space-between;
 }
 
+.type ul {
+  padding-left: 20px;
+}
+
 .canopy {
   font-family: 'poppins', sans-serif;
   font-weight: 600;
