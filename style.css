@@ -12,22 +12,39 @@ body {
   background-color: #fff;
 }
 
-.logo-menu {
+.navbar {
+  min-height: px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #6070ff;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
+  color: #6070ff;
 }
 
 a {
   text-decoration: none;
 }
 
-.logo-menu nav a {
-  display: none;
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #344563;
+  margin-right: 5rem;
+}
+
+.nav-item {
+  margin: 16px 0;
+}
+
+.nav-link:hover {
+  width: 20px;
 }
 
 .logo {
@@ -41,6 +58,69 @@ a {
 .logo:hover {
   transform: rotate(20deg);
   transition: 0.5s all;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    max-width: 100%;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
+    cursor: pointer;
+    color: rebeccapurple;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: 100%;
+    top: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 28px;
+    padding: 106px 96px 0 28px;
+    gap: 0;
+    background-color: rgba(96, 112, 255, 0.8);
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: 45rem;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: -30px;
+  }
 }
 
 .introduction {
@@ -169,6 +249,10 @@ ul li i {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+}
+
+.type ul {
+  padding-left: 20px;
 }
 
 .canopy {
@@ -490,24 +574,17 @@ textarea {
     background-color: #e5e5e5;
   }
 
-  .logo-menu nav i {
+  .hamburger {
     display: none;
   }
 
-  .logo-menu nav a {
-    display: inline;
-    color: #344563;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 20px;
-  }
-
-  .logo-menu {
+  .navbar {
     padding: 25px 10%;
     display: flex;
   }
 
-  .logo-menu nav {
+  .nav-menu {
+    display: block;
     align-items: center;
     word-spacing: 20px;
   }
