@@ -60,8 +60,98 @@ a {
   opacity: 60%;
 }
 
-.-content: center;
+logo:hover {
+  transform: rotate(20deg);
+  transition: 0.5s all;
 }
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #6070ff;
+}
+
+@media only screen and (max-width: 768px){
+  
+
+  .nav-link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
+    cursor: pointer;
+    color: rebeccapurple;
+
+  }
+  
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #fff;
+    cursor: pointer;
+    color: red;
+  }
+
+  .hamburger.active .bar:nth-child(3)::after{
+    background-color: rgb(255, 0, 0,);
+    color: red;
+  }
+
+
+  .hamburger .bar:nth-child(3):hover{
+    background-color: rgb(255, 0, 0,);
+    color: red;
+  }
+  .nav-menu{
+    position: fixed;
+      left: 100%; 
+      top: 0px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-left: 28px;
+      padding: 106px 96px 0 28px;
+      gap: 0;
+      background-color: rgba(96, 112, 255, 0.8);
+      mix-blend-mode: multiply;
+      backdrop-filter: blur(20px);
+      width: 100%;
+      height: 45rem;
+      text-align: center;
+      transition: 0.3s;
+  }
+  .nav-menu.active {
+    left: -30px;
+  }
+}
+.introduction {
+  padding-top: 100px;
+  background: url(images/header-shapes\ mobile.png) no-repeat;
+  background-size: 100%;
+  background-color: #fff;
+  height: 700px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 0 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+
 
 h1 {
   font-family: "poppins", sans-serif;
