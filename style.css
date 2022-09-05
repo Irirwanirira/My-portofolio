@@ -101,19 +101,8 @@ logo:hover {
     transform: translateY(-8px) rotate(-45deg);
     background-color: #fff;
     cursor: pointer;
-    color: red;
   }
 
-  .hamburger.active .bar:nth-child(3)::after{
-    background-color: rgb(255, 0, 0,);
-    color: red;
-  }
-
-
-  .hamburger .bar:nth-child(3):hover{
-    background-color: rgb(255, 0, 0,);
-    color: red;
-  }
   .nav-menu{
     position: fixed;
       left: 100%; 
