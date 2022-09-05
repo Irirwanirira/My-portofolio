@@ -71,6 +71,10 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  * {
+    max-width: 100%;
+  }
+
   .nav-link {
     color: #fff;
     font-weight: 600;
@@ -98,7 +102,7 @@ a {
   .nav-menu {
     position: fixed;
     left: 100%;
-    top: 1px;
+    top: 0;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
