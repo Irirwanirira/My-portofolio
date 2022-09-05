@@ -12,22 +12,44 @@ body {
   background-color: #fff;
 }
 
-.logo-menu {
+.navbar{
+  min-height: px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between ;
   align-items: center;
-  color: #6070ff;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
+  color: #6070ff;
+}
+
+li{
+  list-style: none;
 }
 
 a {
   text-decoration: none;
 }
 
-.logo-menu nav a {
-  display: none;
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #344563;
+  margin-right: 5rem;
+}
+
+.nav-item{
+  margin: 16px 0;
+  /* color: white; */
+}
+
+.nav-link:hover {
+  width: 20px;
 }
 
 .logo {
@@ -38,24 +60,7 @@ a {
   opacity: 60%;
 }
 
-.logo:hover {
-  transform: rotate(20deg);
-  transition: 0.5s all;
-}
-
-.introduction {
-  padding-top: 100px;
-  background: url(images/header-shapes\ mobile.png) no-repeat;
-  background-size: 100%;
-  background-color: #fff;
-  height: 700px;
-  padding-left: 24px;
-  padding-right: 24px;
-  border-radius: 0 0 0 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  justify-content: center;
+.-content: center;
 }
 
 h1 {
@@ -494,24 +499,17 @@ textarea {
     background-color: #e5e5e5;
   }
 
-  .logo-menu nav i {
+  .hamburger{
     display: none;
   }
 
-  .logo-menu nav a {
-    display: inline;
-    color: #344563;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 20px;
-  }
-
-  .logo-menu {
+  .navbar {
     padding: 25px 10%;
     display: flex;
   }
 
-  .logo-menu nav {
+  .nav-menu {
+    display: block;
     align-items: center;
     word-spacing: 20px;
   }
