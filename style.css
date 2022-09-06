@@ -75,6 +75,10 @@ a {
     max-width: 100%;
   }
 
+  .contact {
+    padding-top: 150px;
+  }
+
   .nav-link {
     color: #fff;
     font-weight: 600;
@@ -504,6 +508,10 @@ form {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+#form #error {
+  color: red;
 }
 
 input {
