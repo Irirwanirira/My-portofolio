@@ -35,7 +35,49 @@ function invalidEmail(e){
 form.addEventListener('click', invalidEmail)
 
 
-
+const Project = [
+    {
+      title: "Tonic ",
+      src: "images/picture1.png",
+      desription:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      technologies: ["html", "css", "javaScript"],
+      seeLiveLink: "https://irirwanirira.github.io/My-portofolio/",
+      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+    },
+    {
+      title: "Multi-Post Stories ",
+      src: "images/Snapshoot-Portfolio-2.png",
+      desription:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      technologies: ["html", "css", "javaScript"],
+      seeLive: "https://irirwanirira.github.io/My-portofolio/",
+      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+    },
+    {
+      title: "Multi-Post Stories ",
+      src: "images/Snapshoot-Portfolio-3.png",
+      desription:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      technologies: ["html", "css", "javaScript"],
+      seeLive: "https://irirwanirira.github.io/My-portofolio/",
+      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+    },
+    {
+      title: "Multi-Post Stories ",
+      src: "images/Snapshoot-Portfolio-4.png",
+      desription:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      technologies: ["html", "css", "javaScript"],
+      seeLive: "https://irirwanirira.github.io/My-portofolio/",
+      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+    },
+  ];
+  const seeProject = document.querySelectorAll("#seeProject");
+  const allbutton = Array.from(seeProject);
+  const projectPopUp = document.getElementById("projectPopUP");
+  const buttonC = document.querySelectorAll("#buttonC");
+  const buttonCc = Array.from(buttonC);
 
   
   function popUp(projectNmuber) {
