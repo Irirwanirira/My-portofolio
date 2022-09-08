@@ -33,11 +33,11 @@
 }
 
 #closebtn {
-  background-color: #fff; 
+  background-color: #fff;
   border: 1px black hidden;
   border-radius: 50%;
   font-size: 40px;
-  color: #67798E;
+  color: #67798e;
 }
 
 .tonicClose {
@@ -49,11 +49,11 @@
 
 .type-pop {
   display: flex;
-  align-items: baseline ;
+  align-items: baseline;
   justify-content: start;
   gap: 10px;
   padding: 16px;
-  margin-top: -40px ;  
+  margin-top: -40px;  
 }
 
 .pic1-pop {
@@ -65,7 +65,7 @@
   border-radius: 8%;
 }
 
-.opt-period-pop{
+.opt-period-pop {
   font-family: "poppins", sans-serif;
   font-style: "semiBold";
   font-size: 13px;
@@ -118,7 +118,6 @@
   gap: 5rem;
 }
 
-
 @media only screen and (min-width: 1250px) {
   .wholeModal {
     background-color: #fff;
@@ -154,7 +153,7 @@
     top: 13%;
     left: 0;
   }
-  
+
   #pic1-pop {
     padding: 20px;
     margin-top: 15px;
@@ -182,7 +181,7 @@
     justify-content: center;
     align-items: center;
     padding-right: 16px;
-    gap: 1rem;   
+    gap: 1rem;
   }
 
   .liveLink a {
@@ -195,7 +194,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 2px;
-  } 
+  }
 }
 
 /* End */
