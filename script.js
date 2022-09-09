@@ -36,48 +36,197 @@ form.addEventListener('click', invalidEmail)
 
 
 const Project = [
-    {
-      title: "Tonic ",
-      src: "images/picture1.png",
-      desription:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      technologies: ["html", "css", "javaScript"],
-      seeLiveLink: "https://irirwanirira.github.io/My-portofolio/",
-      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+  {
+    id: 1,
+    title: "Tonic ",
+    info: {
+      client: "CANOPY",
+      role: "Back End Dev",
+      img: "images/Counter.png",
+      year: 2015,
     },
-    {
-      title: "Multi-Post Stories ",
-      src: "images/Snapshoot-Portfolio-2.png",
-      desription:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      technologies: ["html", "css", "javaScript"],
-      seeLive: "https://irirwanirira.github.io/My-portofolio/",
-      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+    src: "images/picture1.png",
+    desription: {
+      descDesktop:
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      descPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     },
-    {
-      title: "Multi-Post Stories ",
-      src: "images/Snapshoot-Portfolio-3.png",
-      desription:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      technologies: ["html", "css", "javaScript"],
-      seeLive: "https://irirwanirira.github.io/My-portofolio/",
-      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+    technologies: ["html", "css", "javaScript"],
+    seeProject:'See Project',
+    seeLiveLink: "See live Link",
+    seeSourceLink: "See Source link",
+  },
+  {
+    id: 2,
+    title: "Multi-Post Stories ",
+    info: {
+      client: "CANOPY",
+      img: "images/Counter.png",
+      role: "Back End Dev",
+      year: 2015,
     },
-    {
-      title: "Multi-Post Stories ",
-      src: "images/Snapshoot-Portfolio-4.png",
-      desription:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-      technologies: ["html", "css", "javaScript"],
-      seeLive: "https://irirwanirira.github.io/My-portofolio/",
-      seeSourceLink: "https://irirwanirira.github.io/My-portofolio/",
+    src: "images/Snapshoot-Portfolio-2.png",
+    desription: {
+      descDesktop:
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      descPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     },
-  ];
-  const seeProject = document.querySelectorAll("#seeProject");
-  const allbutton = Array.from(seeProject);
-  const projectPopUp = document.getElementById("projectPopUP");
-  const buttonC = document.querySelectorAll("#buttonC");
-  const buttonCc = Array.from(buttonC);
+    technologies: ["html", "css", "javaScript"],
+    seeProject:'See Project',
+    seeLiveLink: "See live Link",
+    seeSourceLink: "See Source link",
+  },
+  {
+    id: 3,
+    title: "Multi-Post Stories ",
+    info: {
+      client: "CANOPY",
+      img: "images/Counter.png",
+      role: "Back End Dev",
+      year: 2015,
+    },
+    src: "images/Snapshoot-Portfolio-3.png",
+    desription: {
+      descDesktop:
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      descPopup:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    },
+    technologies: ["html", "css", "javaScript"],
+    seeProject:'See Project',
+    seeLiveLink: "See live Link",
+    seeSourceLink: "See Source link",
+  },
+  {
+    id: 4,
+    title: "Multi-Post Stories ",
+    info: {
+      client: "CANOPY",
+      img: "images/Counter.png",
+      role: "Back End Dev",
+      year: 2015,
+    },
+    src: "images/Snapshoot-Portfolio-4.png",
+    desription: {
+      descDesktop:
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      descPopup:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    },
+    technologies: ["html", "css", "javaScript"],
+    seeProject:'See Project',
+    seeLiveLink: "See live Link",
+    seeSourceLink: "See Source link",
+  },
+];
+
+const computerCards = document.querySelector(".computer-html");
+const mobileCards = document.querySelector('#mobile-html') 
+
+const displayComputerHtml = Project.map(
+  (works, index) => `
+  <section class="computer">
+    <div class="grid-container">
+
+      <div class="cards">
+
+
+        <img class="pic1" src= ${works.src} alt=" project-snipped-picture">
+
+        <div class="descript">
+
+          <h3 class="tonic">${works.title}</h3>
+
+          <div class="type">
+              <p class="canopy">${works.info.client}</p>
+              <ul>
+
+                  <li><img src=${works.info.img} alt="Nature catchy look inspiring "></li>
+                  <li class="opt-period"> ${works.info.role} </li>
+                  <li> <img src=${works.info.img} alt="dot"></li>
+
+                  <li class="opt-period"> ${works.info.year} </li>
+              </ul>
+          </div>
+
+          <p class="explanations"> ${works.desription.descDesktop}</p>
+
+          <div class="css-html-js">
+              <ul>
+                  <li> <button class="all">${works.technologies[0]}</button> </li>
+                  <li><button class="all">${works.technologies[1]}</button></li>
+                  <li><button class="all">${works.technologies[2]}</button></li>
+              </ul>
+          </div>
+          <a href="#" class="button" id="buttonC" >${works.seeProject}</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+`
+).join("");
+
+const displayMobileHtml = Project.map(
+(mobile, index) => `  
+
+
+  <section class="work">
+
+    <div class="grid-container">
+
+      <div class="cards">
+
+
+        <img class="pic1" src=${mobile.src} alt="project-snipped-picture">
+
+        <div class="description">
+
+          <h3 class="tonic">${mobile.title}</h3>
+
+            <div class="type">
+                  <p class="canopy">${mobile.info.client}</p>
+                  <ul>
+                      <li><img src=${mobile.info.img} alt="Explore what design and code have in general"></li>
+                      <li class="opt-period"> ${mobile.info.role} </li>
+                      <li> <img src=${mobile.info.img} alt="Dot"></li>
+                    
+                      <li class="opt-period">${mobile.info.year}</li>
+                  </ul>
+            </div>
+
+            <p class="explanations">${mobile.desription.descDesktop}</p>
+
+            <div class="css-html-js">
+                  <ul>
+                    <li> <button class="all">${mobile.technologies[0]}</button> </li>
+                    <li><button class="all">${mobile.technologies[1]}</button></li>
+                    <li><button class="all">${mobile.technologies[2]}</button></li>
+                  </ul>
+            </div>
+
+            <a href="#" class="button" id="seeProject"> ${mobile.seeProject}</a>
+
+        </div>      
+      </div>
+    </div>
+  </div>`
+
+).join("")
+
+computerCards.innerHTML = displayComputerHtml ;
+mobileCards.innerHTML = displayMobileHtml;
+
+
+
+const seeProject = document.querySelectorAll("#seeProject");
+const allbutton = Array.from(seeProject);
+const projectPopUp = document.getElementById("projectPopUP");
+const buttonC = document.querySelectorAll("#buttonC");
+const buttonCc = Array.from(buttonC);
 
   
   function popUp(projectNmuber) {
@@ -111,7 +260,7 @@ const Project = [
             
           <div class="expl-link"> 
   
-            <p class="explanations-pop"> ${Project[projectNmuber].desription} </p>
+            <p class="explanations-pop"> ${Project[projectNmuber].desription.descPopup} </p>
   
             <div class = 'html-link' >
                   <div class="css-html-js " id = 'css-html-js-pop'>
