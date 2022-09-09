@@ -29,9 +29,7 @@ function invalidEmail(e){
   }
 }
 
-
 form.addEventListener('click', invalidEmail)
-
 
 const Project = [
   {
@@ -221,7 +219,6 @@ const allbutton = Array.from(seeProject);
 const projectPopUp = document.getElementById("projectPopUP");
 const buttonC = document.querySelectorAll("#buttonC");
 const buttonCc = Array.from(buttonC);
-
   
 function popUp(projectNmuber) {
   const popupWindow = document.createElement('div');
@@ -303,4 +300,3 @@ for (let i = 0; i < buttonCc.length; i++ ) {
     popUp(i);
   });
 }
-
