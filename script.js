@@ -1,18 +1,18 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu")
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
-hamburger.addEventListener ("click", () =>{
+hamburger.addEventListener('click', ()=> {
     
-    hamburger.classList.toggle("active")
-    navMenu.classList.toggle("active")
+  hamburger.classList.toggle('active')
+  navMenu.classList.toggle('active')
 })
 
-document.querySelectorAll(".nav-link").forEach( n => n. 
-    addEventListener("click", () => {
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
+document.querySelectorAll('.nav-link').forEach( n => n. 
+  addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
 
-    })
+  })
 )
 
 const form = document.getElementById('form');
@@ -38,92 +38,92 @@ form.addEventListener('click', invalidEmail)
 const Project = [
   {
     id: 1,
-    title: "Tonic ",
+    title: 'Tonic',
     info: {
-      client: "CANOPY",
-      role: "Back End Dev",
-      img: "images/Counter.png",
+      client: 'CANOPY',
+      role: 'Back End Dev',
+      img: 'images/Counter.png',
       year: 2015,
     },
-    src: "images/picture1.png",
+    src: 'images/picture1.png',
     desription: {
       descDesktop:
-        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       descPopup:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     },
-    technologies: ["html", "css", "javaScript"],
-    seeProject:'See Project',
-    seeLiveLink: "See live Link",
-    seeSourceLink: "See Source link",
+    technologies: ['html', 'css', 'javaScript'],
+    seeProject: 'See Project',
+    seeLiveLink: 'See live Link',
+    seeSourceLink: 'See Source link',
   },
   {
     id: 2,
-    title: "Multi-Post Stories ",
+    title: 'Multi-Post Stories',
     info: {
-      client: "CANOPY",
-      img: "images/Counter.png",
-      role: "Back End Dev",
+      client: 'CANOPY',
+      role: 'Back End Dev',
+      img: 'images/Counter.png',
       year: 2015,
     },
-    src: "images/Snapshoot-Portfolio-2.png",
+    src: 'images/Snapshoot-Portfolio-2.png',
     desription: {
       descDesktop:
-        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       descPopup:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     },
-    technologies: ["html", "css", "javaScript"],
-    seeProject:'See Project',
-    seeLiveLink: "See live Link",
-    seeSourceLink: "See Source link",
+    technologies: ['html', 'css', 'javaScript'],
+    seeProject: 'See Project',
+    seeLiveLink: 'See live Link',
+    seeSourceLink: 'See Source link',
   },
   {
     id: 3,
-    title: "Multi-Post Stories ",
+    title: 'Multi-Post Stories',
     info: {
-      client: "CANOPY",
-      img: "images/Counter.png",
-      role: "Back End Dev",
+      client: 'CANOPY',
+      role: 'Back End Dev',
+      img: 'images/Counter.png',
       year: 2015,
     },
-    src: "images/Snapshoot-Portfolio-3.png",
+    src: 'images/Snapshoot-Portfolio-3.png',
     desription: {
       descDesktop:
-        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       descPopup:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     },
-    technologies: ["html", "css", "javaScript"],
-    seeProject:'See Project',
-    seeLiveLink: "See live Link",
-    seeSourceLink: "See Source link",
+    technologies: ['html', 'css', 'javaScript'],
+    seeProject: 'See Project',
+    seeLiveLink: 'See live Link',
+    seeSourceLink: 'See Source link',
   },
   {
     id: 4,
-    title: "Multi-Post Stories ",
+    title: 'Multi-Post Stories',
     info: {
-      client: "CANOPY",
-      img: "images/Counter.png",
-      role: "Back End Dev",
+      client: 'CANOPY',
+      role: 'Back End Dev',
+      img: 'images/Counter.png',
       year: 2015,
     },
-    src: "images/Snapshoot-Portfolio-4.png",
+    src: 'images/Snapshoot-Portfolio-4.png',
     desription: {
       descDesktop:
-        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
       descPopup:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     },
-    technologies: ["html", "css", "javaScript"],
-    seeProject:'See Project',
-    seeLiveLink: "See live Link",
-    seeSourceLink: "See Source link",
+    technologies: ['html', 'css', 'javaScript'],
+    seeProject: 'See Project',
+    seeLiveLink: 'See live Link',
+    seeSourceLink: 'See Source link',
   },
 ];
 
-const computerCards = document.querySelector(".computer-html");
-const mobileCards = document.querySelector('#mobile-html') 
+const computerCards = document.querySelector('.computer-html');
+const mobileCards = document.querySelector('#mobile-html'); 
 
 const displayComputerHtml = Project.map(
   (works, index) => `
@@ -167,12 +167,10 @@ const displayComputerHtml = Project.map(
     </div>
   </div>
   
-`
-).join("");
+`).join('');
 
 const displayMobileHtml = Project.map(
-(mobile, index) => `  
-
+  (mobile) => `  
 
   <section class="work">
 
@@ -213,14 +211,11 @@ const displayMobileHtml = Project.map(
         </div>      
       </div>
     </div>
-  </div>`
+  </div>
+  `).join('')
 
-).join("")
-
-computerCards.innerHTML = displayComputerHtml ;
+computerCards.innerHTML = displayComputerHtml;
 mobileCards.innerHTML = displayMobileHtml;
-
-
 
 const seeProject = document.querySelectorAll("#seeProject");
 const allbutton = Array.from(seeProject);
@@ -230,8 +225,8 @@ const buttonCc = Array.from(buttonC);
 
   
   function popUp(projectNmuber) {
-    const popupWindow = document.createElement("div");
-    popupWindow.className = "modal-container";
+    const popupWindow = document.createElement('div');
+    popupWindow.className = 'modal-container';
     popupWindow.innerHTML = `
       <div class = 'wholeModal'>
           
@@ -288,24 +283,24 @@ const buttonCc = Array.from(buttonC);
   
       </div>
       
-      `;
+      `
     projectPopUp.append(popupWindow);
   
-    document.addEventListener("click", (event) => {
-      if (event.target.id === "closebtn") {
-        popupWindow.style.display = "none";
+    document.addEventListener('click', (event) => {
+      if (event.target.id === 'closebtn') {
+        popupWindow.style.display = 'none';
       }
     });
   }
   
   for (let i = 0; i < allbutton.length; i++) {
-    allbutton[i].addEventListener("click", () => {
+    allbutton[i].addEventListener('click', () => {
       popUp(i);
     });
   }
   
   for (let i = 0; i < buttonCc.length; i++) {
-    buttonCc[i].addEventListener("click", () => {
+    buttonCc[i].addEventListener('click', () => {
       popUp(i);
     });
   }
