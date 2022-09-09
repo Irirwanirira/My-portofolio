@@ -126,7 +126,7 @@ const computerCards = document.querySelector('.computer-html');
 const mobileCards = document.querySelector('#mobile-html'); 
 
 const displayComputerHtml = Project.map(
-  (works, index) => `
+  (works) => `
   <section class="computer">
     <div class="grid-container">
 
