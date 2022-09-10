@@ -250,7 +250,7 @@ function popUp(projectNmuber) {
 
           <div id="pic1-pop"> 
 
-            <img  class="pic1-pop" src=${Project[projectNmuber].src}alt="project-snipped-picture">
+            <img  class="pic1-pop" src=${Project[projectNmuber].src} alt="project-snipped-picture">
 
           </div>
           
