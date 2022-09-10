@@ -32,7 +32,7 @@ function invalidEmail(e){
 }
 
 
-form.addEventListener('click', invalidEmail())
+form.addEventListener('click', invalidEmail)
 
 
 const Project = [
