@@ -34,19 +34,19 @@ form.addEventListener('click', invalidEmail)
 const Project = [
   {
     id: 1,
-    title: 'Tonic',
+    title: 'Todo',
     info: {
       client: 'CANOPY',
       role: 'Back End Dev',
       img: 'images/Counter.png',
-      year: 2015,
+      year: 2022,
     },
-    src: 'images/picture1.png',
+    src: 'images/Screenshot-2020-10.png',
     desription: {
       descDesktop:
-        'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        'Todo app helps you to keep on track of your activities, give you some options of editing or deleting the completed tasks.  ',
       descPopup:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+      'Todo app helps you to keep on track of your activities, give you some options of editing or deleting the completed tasks. ',
     },
     technologies: ['html', 'css', 'javaScript'],
     seeProject: 'See Project',
@@ -112,14 +112,14 @@ const Project = [
       'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     },
     technologies: ['html', 'css', 'javaScript'],
-    seeProject: 'See Project',
-    seeLiveLink: 'See live Link',
-    seeSourceLink: 'See Source link',
+    seeProject: 'https://github.com/Irirwanirira/To-do-List',
+    seeLiveLink: 'https://irirwanirira.github.io/To-do-List/',
+    seeSourceLink: 'https://irirwanirira.github.io/To-do-List/',
   },
 ];
 
 const computerCards = document.querySelector('.computer-html');
-const mobileCards = document.querySelector('#mobile-html'); 
+const mobileCards = document.querySelector('#mobile-html');
 
 const displayComputerHtml = Project.map(
   (works, index) => `
@@ -299,4 +299,18 @@ for (let i = 0; i < buttonCc.length; i++ ) {
   buttonCc[i].addEventListener('click', () => {
     popUp(i);
   });
+}
+
+
+const fullNameForm = document.getElementById('name');
+const emailForm = document.getElementById('email');
+const commentForm = document.getElementById('Message');
+
+function saveLocally() {
+  const formData = {
+    fullName: fullNameForm.value,
+    email: emailForm.value,
+    comment: commentForm.value,
+  };
+  localStorage.setItem('form', JSON.stringify(formData));
 }
