@@ -179,14 +179,31 @@
 
             <form action="https://formspree.io/f/mzbwzder" method="post" id="form">
 
-                <input type="text" id="name" placeholder="Fullname" maxlength="30" required>
+                <input 
+                type="text" 
+                id="name" 
+                placeholder="Fullname" 
+                onchange = "saveLocally()"
+                maxlength="30" required>
 
 
-                <input type="email" id="email" name="email" placeholder="Enter your email" 
+                <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="Enter your email" 
+                onchange = "saveLocally()"
                 required onkeydown = "invalidEmail()">
+               
                 <span id="error"></span>
-                <textarea name="Message" id="Message" placeholder="Write your message here" maxlength="500"
-                    required></textarea>
+                <textarea 
+                name="Message" 
+                id="Message" placeholder="Write your message here" 
+                maxlength="500"
+                required
+                onchange = "saveLocally()">
+                </textarea>
+                
                 <button class="get-in-touch-btn" type="submit" name="Submit">
                     Get it touch
                 </button>
