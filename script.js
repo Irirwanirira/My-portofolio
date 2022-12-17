@@ -314,3 +314,4 @@ function saveLocally() {
   };
   localStorage.setItem('form', JSON.stringify(formData));
 }
+saveLocally();
