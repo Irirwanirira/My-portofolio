@@ -50,8 +50,9 @@ const Project = [
     },
     technologies: ['html', 'css', 'javaScript'],
     seeProject: 'See Project',
-    seeLiveLink: 'See live Link',
-    seeSourceLink: 'See Source link',
+    seeLiveLink: 'https://irirwanirira.github.io/To-do-List/',
+    seeSourceLink: 'https://github.com/Irirwanirira/To-do-List',
+    
   },
   {
     id: 2,
@@ -62,7 +63,7 @@ const Project = [
       img: 'images/Counter.png',
       year: 2015,
     },
-    src: 'images/Snapshoot-Portfolio-2.png',
+    src: 'images/calculator.png',
     desription: {
       descDesktop:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -71,8 +72,8 @@ const Project = [
     },
     technologies: ['html', 'css', 'javaScript'],
     seeProject: 'See Project',
-    seeLiveLink: 'See live Link',
-    seeSourceLink: 'See Source link',
+    seeLiveLink: 'https://imaginative-scone-fa9020.netlify.app/',
+    seeSourceLink: 'https://github.com/Irirwanirira/math-magician',
   },
   {
     id: 3,
@@ -83,7 +84,7 @@ const Project = [
       img: 'images/Counter.png',
       year: 2015,
     },
-    src: 'images/Snapshoot-Portfolio-3.png',
+    src: 'images/Falcon.png',
     desription: {
       descDesktop:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -92,8 +93,8 @@ const Project = [
     },
     technologies: ['html', 'css', 'javaScript'],
     seeProject: 'See Project',
-    seeLiveLink: 'See live Link',
-    seeSourceLink: 'See Source link',
+    seeLiveLink: 'https://deploy-preview-32--strong-heliotrope-adde83.netlify.app/',
+    seeSourceLink: 'https://github.com/Irirwanirira/space-x-react-project',
   },
   {
     id: 4,
@@ -112,7 +113,7 @@ const Project = [
       'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     },
     technologies: ['html', 'css', 'javaScript'],
-    seeProject: 'https://github.com/Irirwanirira/To-do-List',
+    seeProject: 'see Project',
     seeLiveLink: 'https://irirwanirira.github.io/To-do-List/',
     seeSourceLink: 'https://irirwanirira.github.io/To-do-List/',
   },
@@ -156,7 +157,7 @@ const displayComputerHtml = Project.map(
                   <li><button class="all">${works.technologies[2]}</button></li>
               </ul>
           </div>
-          <a href="#" class="button" id="buttonC" >${works.seeProject}</a>
+          <a href="${Project[index].seeProject}" class="button" id="buttonC" >${works.seeProject}</a>
 
         </div>
       </div>
