@@ -266,7 +266,7 @@ function popUp(projectNmuber) {
 
             <div class = 'liveLink' >
 
-              <a href="${Project[projectNmuber].seeLive}" class="button-1" id = 'btn--1' > See Live  <img src="/images/Icon-arrow.png" alt="arrow"></a>
+              <a href="${Project[projectNmuber].seeLiveLink}" class="button-1" id = 'btn--1' > See Live  <img src="/images/Icon-arrow.png" alt="arrow"></a>
               
               <a href="${Project[projectNmuber].seeSourceLink}" class="button-1"  id = 'btn--1' > SeeLiveLink <img src="/images/Vector-git.png" alt="github">
               </a>
