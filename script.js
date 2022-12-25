@@ -1,125 +1,125 @@
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
-})
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
 
-document.querySelectorAll('.nav-link').forEach( n => n. 
-  addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
   })
-)
+);
 
-const form = document.getElementById('form');
-const Email = document.getElementById('email');
-const Error_msg = document.getElementById('error');
+const form = document.getElementById("form");
+const Email = document.getElementById("email");
+const Error_msg = document.getElementById("error");
 
-
-function invalidEmail(e){
-
-  if ( Email.value !== Email.value.toLowerCase()){
-    Error_msg.innerHTML = 'Please Enter your Email in lowerCase. Ex: hello@example.com';
-    Error_msg.style.display = 'block';
+function invalidEmail(e) {
+  if (Email.value !== Email.value.toLowerCase()) {
+    Error_msg.innerHTML =
+      "Please Enter your Email in lowerCase. Ex: hello@example.com";
+    Error_msg.style.display = "block";
     e.preventDefault();
-  }else {
-    Error_msg.style.display = 'none';
+  } else {
+    Error_msg.style.display = "none";
   }
 }
 
-form.addEventListener('click', invalidEmail)
+form.addEventListener("click", invalidEmail);
 
 const Project = [
   {
     id: 1,
-    title: 'Todo',
+    title: "Todo",
     info: {
-      client: 'CANOPY',
-      role: 'Back End Dev',
-      img: 'images/Counter.png',
+      client: "CANOPY",
+      role: "Back End Dev",
+      img: "images/Counter.png",
       year: 2022,
     },
-    src: 'images/Screenshot-2020-10.png',
+    src: "images/Screenshot-2020-10.png",
     desription: {
       descDesktop:
-        'Todo app helps you to keep on track of your activities, give you some options of editing or deleting the completed tasks.  ',
+        "Todo app helps you to keep on track of your activities, give you some options of editing or deleting the completed tasks.  ",
       descPopup:
-      'Todo app helps you to keep on track of your activities, give you some options of editing or deleting the completed tasks. ',
+        "Todo app helps you to keep on track of your activities, give you some options of editing or deleting the completed tasks. ",
     },
-    technologies: ['html', 'css', 'javaScript'],
-    seeProject: 'See Project',
-    seeLiveLink: 'See live Link',
-    seeSourceLink: 'See Source link',
+    technologies: ["html", "css", "javaScript"],
+    seeProject: "See Project",
+    seeLiveLink: "https://irirwanirira.github.io/To-do-List/",
+    seeSourceLink: "https://github.com/Irirwanirira/To-do-List",
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     info: {
-      client: 'CANOPY',
-      role: 'Back End Dev',
-      img: 'images/Counter.png',
+      client: "CANOPY",
+      role: "Back End Dev",
+      img: "images/Counter.png",
       year: 2015,
     },
-    src: 'images/Snapshoot-Portfolio-2.png',
+    src: "images/calculator.png",
     desription: {
       descDesktop:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
       descPopup:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     },
-    technologies: ['html', 'css', 'javaScript'],
-    seeProject: 'See Project',
-    seeLiveLink: 'See live Link',
-    seeSourceLink: 'See Source link',
+    technologies: ["html", "css", "javaScript"],
+    seeProject: "See Project",
+    seeLiveLink: "https://imaginative-scone-fa9020.netlify.app/",
+    seeSourceLink: "https://github.com/Irirwanirira/math-magician",
   },
   {
     id: 3,
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     info: {
-      client: 'CANOPY',
-      role: 'Back End Dev',
-      img: 'images/Counter.png',
+      client: "CANOPY",
+      role: "Back End Dev",
+      img: "images/Counter.png",
       year: 2015,
     },
-    src: 'images/Snapshoot-Portfolio-3.png',
+    src: "images/Falcon.png",
     desription: {
       descDesktop:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
       descPopup:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     },
-    technologies: ['html', 'css', 'javaScript'],
-    seeProject: 'See Project',
-    seeLiveLink: 'See live Link',
-    seeSourceLink: 'See Source link',
+    technologies: ["html", "css", "javaScript"],
+    seeProject: "See Project",
+    seeLiveLink:
+      "https://deploy-preview-32--strong-heliotrope-adde83.netlify.app/",
+    seeSourceLink: "https://github.com/Irirwanirira/space-x-react-project",
   },
   {
     id: 4,
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     info: {
-      client: 'CANOPY',
-      role: 'Back End Dev',
-      img: 'images/Counter.png',
+      client: "CANOPY",
+      role: "Back End Dev",
+      img: "images/Counter.png",
       year: 2015,
     },
-    src: 'images/Snapshoot-Portfolio-4.png',
+    src: "images/Snapshoot-Portfolio-4.png",
     desription: {
       descDesktop:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
       descPopup:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+        "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     },
-    technologies: ['html', 'css', 'javaScript'],
-    seeProject: 'https://github.com/Irirwanirira/To-do-List',
-    seeLiveLink: 'https://irirwanirira.github.io/To-do-List/',
-    seeSourceLink: 'https://irirwanirira.github.io/To-do-List/',
+    technologies: ["html", "css", "javaScript"],
+    seeProject: "see Project",
+    seeLiveLink: "https://irirwanirira.github.io/To-do-List/",
+    seeSourceLink: "https://irirwanirira.github.io/To-do-List/",
   },
 ];
 
-const computerCards = document.querySelector('.computer-html');
-const mobileCards = document.querySelector('#mobile-html');
+const computerCards = document.querySelector(".computer-html");
+const mobileCards = document.querySelector("#mobile-html");
 
 const displayComputerHtml = Project.map(
   (works) => `
@@ -156,14 +156,15 @@ const displayComputerHtml = Project.map(
                   <li><button class="all">${works.technologies[2]}</button></li>
               </ul>
           </div>
-          <a href="#" class="button" id="buttonC" >${works.seeProject}</a>
+          <a href="${Project.seeProject}" class="button" id="buttonC" >${works.seeProject}</a>
 
         </div>
       </div>
     </div>
   </div>
   
-`).join('');
+`
+).join("");
 
 const displayMobileHtml = Project.map(
   (mobile) => `  
@@ -209,7 +210,7 @@ const displayMobileHtml = Project.map(
     </div>
   </div>
   `
-).join('')
+).join("");
 
 computerCards.innerHTML = displayComputerHtml;
 mobileCards.innerHTML = displayMobileHtml;
@@ -219,10 +220,10 @@ const allbutton = Array.from(seeProject);
 const projectPopUp = document.getElementById("projectPopUP");
 const buttonC = document.querySelectorAll("#buttonC");
 const buttonCc = Array.from(buttonC);
-  
+
 function popUp(projectNmuber) {
-  const popupWindow = document.createElement('div');
-  popupWindow.className = 'modal-container';
+  const popupWindow = document.createElement("div");
+  popupWindow.className = "modal-container";
   popupWindow.innerHTML = `
     <div class = 'wholeModal'>
         
@@ -265,7 +266,7 @@ function popUp(projectNmuber) {
 
             <div class = 'liveLink' >
 
-              <a href="${Project[projectNmuber].seeLive}" class="button-1" id = 'btn--1' > See Live  <img src="/images/Icon-arrow.png" alt="arrow"></a>
+              <a href="${Project[projectNmuber].seeLiveLink}" class="button-1" id = 'btn--1' > See Live  <img src="/images/Icon-arrow.png" alt="arrow"></a>
               
               <a href="${Project[projectNmuber].seeSourceLink}" class="button-1"  id = 'btn--1' > SeeLiveLink <img src="/images/Vector-git.png" alt="github">
               </a>
@@ -279,32 +280,31 @@ function popUp(projectNmuber) {
 
     </div>
     
-    `
+    `;
   projectPopUp.append(popupWindow);
 
-  document.addEventListener('click', (event) => {
-    if (event.target.id === 'closebtn') {
-      popupWindow.style.display = 'none';
+  document.addEventListener("click", (event) => {
+    if (event.target.id === "closebtn") {
+      popupWindow.style.display = "none";
     }
   });
 }
 
-for (let i = 0; i < allbutton.length; i++ ) {
-  allbutton[i].addEventListener('click', () => {
+for (let i = 0; i < allbutton.length; i++) {
+  allbutton[i].addEventListener("click", () => {
     popUp(i);
   });
 }
 
-for (let i = 0; i < buttonCc.length; i++ ) {
-  buttonCc[i].addEventListener('click', () => {
+for (let i = 0; i < buttonCc.length; i++) {
+  buttonCc[i].addEventListener("click", () => {
     popUp(i);
   });
 }
 
-
-const fullNameForm = document.getElementById('name');
-const emailForm = document.getElementById('email');
-const commentForm = document.getElementById('Message');
+const fullNameForm = document.getElementById("name");
+const emailForm = document.getElementById("email");
+const commentForm = document.getElementById("Message");
 
 function saveLocally() {
   const formData = {
@@ -312,6 +312,6 @@ function saveLocally() {
     email: emailForm.value,
     comment: commentForm.value,
   };
-  localStorage.setItem('form', JSON.stringify(formData));
+  localStorage.setItem("form", JSON.stringify(formData));
 }
 saveLocally();
