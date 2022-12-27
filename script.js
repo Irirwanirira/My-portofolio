@@ -104,17 +104,17 @@ const Project = [
       img: "images/Counter.png",
       year: 2015,
     },
-    src: "images/Snapshoot-Portfolio-4.png",
+    src: "images/ccc.png",
     desription: {
       descDesktop:
-        "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+        "This a simple app that displays an event of celebration, which includes names of speakers and the avenue where the celebration will occur.",
       descPopup:
         "Lorem Ipsum is simply dummy text of the printing and typesetting make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     },
     technologies: ["html", "css", "javaScript"],
     seeProject: "see Project",
-    seeLiveLink: "https://irirwanirira.github.io/To-do-List/",
-    seeSourceLink: "https://irirwanirira.github.io/To-do-List/",
+    seeLiveLink: "https://eclectic-gumption-fb13ce.netlify.app/",
+    seeSourceLink: "https://github.com/Irirwanirira/Capstone-project-1",
   },
 ];
 
